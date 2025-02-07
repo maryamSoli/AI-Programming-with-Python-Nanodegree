@@ -1,0 +1,76 @@
+please provide arguments
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                     Dog_01.jpg  label:                        dog
+ 2 key:             Persian_Cat_01.jpg  label:                persian cat
+ 3 key:               Dazai_Figure.jpg  label:                      dazai
+ 4 key:                     Dog_02.jpg  label:                        dog
+
+     MATCH:
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:              eskimo dog, husky
+
+            Persian_Cat_01.jpg: 
+Real:                persian cat   Classifier:               persian cat, cat
+
+ NOT A MATCH:
+
+              Dazai_Figure.jpg: 
+Real:                      dazai   Classifier:                    trench coat
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                 siberian husky
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+
+     MATCH:
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:              eskimo dog, husky  
+PetLabelDog: 1  ClassLabelDog: 1
+
+            Persian_Cat_01.jpg: 
+Real:                persian cat   Classifier:               persian cat, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+              Dazai_Figure.jpg: 
+Real:                      dazai   Classifier:                    trench coat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                 siberian husky  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  50.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  50.0
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+ 
+pct_match           : 50.000%
+pct_correct_dogs    : 100.000%
+pct_correct_breed   : 50.000%
+pct_correct_notdogs : 100.000%
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:                 siberian husky
+
+** Total Elapsed Runtime: 0:0:2
