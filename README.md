@@ -1,4 +1,6 @@
 # AI-Programming-with-Python-Nanodegree
+This repository contains my submissions for the [nanodegree program AI Programming with Python](https://www.udacity.com/course/ai-programming-python-nanodegree--nd089) offered by [Udacity](https://www.udacity.com/).
+
 ## Pre-trained Image Classifier to Identify Dog Breeds
 
 This project focuses on improving Python programming skills by utilizing a pre-trained image classifier to identify dog breeds. The project involves evaluating different convolutional neural network (CNN) architectures, including AlexNet, VGG, and ResNet, to determine their accuracy and efficiency. By comparing classification results and runtime, the goal is to gain insights into the trade-offs between computational cost and model performance. The main task is to apply Python skills to work with the classifier, not to develop a new model.
