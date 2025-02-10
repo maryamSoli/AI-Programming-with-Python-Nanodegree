@@ -18,7 +18,7 @@ The dataset for this project can be downloaded from [here](https://www.robots.ox
 - Python
 - PyTorch
 - Convolutional Neural Networks (CNNs)
-- Pre-trained models (VGG)
+- Pre-trained models (VGG, AlexNet, ResNet)
 - Jupyter Notebook
 
 ## How to Use
