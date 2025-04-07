@@ -8,7 +8,7 @@ This project focuses on improving Python programming skills by utilizing a pre-t
 ## Developing an Image Classifier
 
 ### Project Overview
-This project involves implementing an image classifier using PyTorch to identify dog breeds. The focus is on developing deep learning skills while working with pre-trained models. The project is divided into two parts:
+This project involves implementing an image classifier using PyTorch to recognize different species of flowers. The focus is on developing deep learning skills while working with pre-trained models. The project is divided into two parts:
 1. Building and training the classifier in a Jupyter notebook.
 2. Converting the classifier into a command-line application.
 
